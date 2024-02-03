@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #f1f5f8;
+  height: 100vh;
+  font-family: Roboto;
+}
+
+.text {
+  color: #c20a72;
+}
+
+.blue-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+  .counter-value {
+    color: #c20a72;
+    font-weight: 900;
+  }
+}
